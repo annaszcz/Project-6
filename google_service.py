@@ -1,6 +1,7 @@
 from main import get_data
 import gspread
 import pandas as pd
+import requests
 
 
 def save_data():
