@@ -2,6 +2,8 @@ from main import get_data
 import gspread
 import pandas as pd
 import requests
+import psycopg2
+import os
 
 
 def save_data():
@@ -22,4 +24,5 @@ def save_data():
 
     # update the Google worksheet
     worksheet.update(values=[df.columns.values.tolist()] + df.values.tolist(), range_name='my_range')
-save_data()
+    save_data()
+
