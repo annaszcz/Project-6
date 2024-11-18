@@ -6,4 +6,4 @@ def get_data(event, context):
     response = requests.get(url)
     values = response.json()
     print(values)
-    return values
+    return response
