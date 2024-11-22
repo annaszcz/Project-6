@@ -6,7 +6,7 @@ import os
 
 st.write ('Welcome')
 
-# Database connection parameters
+# Database connection parameters 
 load_dotenv()
 
 
